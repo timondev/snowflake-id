@@ -1,5 +1,5 @@
 {
-  "name": "sid-generator",
+  "name": "@timondev/snowflake-id",
   "version": "1.0.0",
   "description": "Snowflake-ID Generator written in typescript",
   "main": "dist/snowflake.js",
@@ -23,6 +23,10 @@
   ],
   "author": "TimonDEV",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timondev/snowflake-id.git"
+  },
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
