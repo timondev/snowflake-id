@@ -74,7 +74,7 @@ Please use the latest version of `npm` or `yarn` to install the package.
 1. Install the package using the following command:
 
    ```sh
-   npm install sid-generator
+   npm install @timondev/snowflake-id
    ```
 
 2. Try out the following example:
