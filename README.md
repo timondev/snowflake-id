@@ -80,7 +80,7 @@ Please use the latest version of `npm` or `yarn` to install the package.
 2. Try out the following example:
 
    ```js
-   import { SnowflakeID } from 'sid-generator';
+   import { SnowflakeID } from '@timondev/snowflake-id';
 
    let id = SnowflakeID.generate();
 
@@ -90,7 +90,7 @@ Please use the latest version of `npm` or `yarn` to install the package.
 3. Or use it to deconstruct snowflakes:
 
    ```js
-   import { SnowflakeID } from 'sid-generator';
+   import { SnowflakeID } from '@timondev/snowflake-id';
 
    let id = '86913608335773696';
    let snowflake = new SnowflakeID(id);
