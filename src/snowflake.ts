@@ -59,7 +59,9 @@ export class SnowflakeID {
 
     this.snowflake = BigInt(snowflake);
     this.timestamp = Number(this.snowflake >> SnowflakeID.TIME_SHIFT) + SnowflakeID.EPOCH;
-    this.workerId = Number((this.snowflake & SnowflakeID.WORKER_TRUNCATE) >> SnowflakeID.WORKER_SHIFT);
+    this.workerId = Number(
+      (this.snowflake & SnowflakeID.WORKER_TRUNCATE) >> SnowflakeID.WORKER_SHIFT,
+    );
     this.processId = Number(
       (this.snowflake & SnowflakeID.PROCESS_TRUNCATE) >> SnowflakeID.PROCESS_SHIFT,
     );
