@@ -10,7 +10,7 @@ test('test deconstruction of timestamp.', () => {
   let snowflake = new SnowflakeID(generatedSnowflake);
 
   // expects the timestamp to be equal or close to the original.
-  expect(snowflake.timestamp).toBeCloseTo(timestamp);
+  expect(snowflake.timestamp).toBeGreaterThanOrEqual(timestamp);
 });
 
 test('test deconstruction of processId.', () => {
