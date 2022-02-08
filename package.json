@@ -1,6 +1,6 @@
 {
   "name": "@timondev/snowflake-id",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Snowflake-ID Generator written in typescript",
   "main": "dist/snowflake.js",
   "types": "dist/snowflake.d.ts",

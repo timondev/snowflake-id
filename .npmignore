@@ -4,6 +4,7 @@ node_modules
 test
 
 dist/tsconfig.tsbuildinfo
+/README.md
 
 # config
 jestconfig.json
